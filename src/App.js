@@ -1,28 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import './style.css';
 import Head from './Head';
 import Section1 from './Section1';
-import Section2 from './Section2';
-import Body from './Body';
-// function App() {
-//   return (
-//     <div>
-//       <Head />
-//       <div>
-//         <Section1 />
-//       </div>
-//       <div>
-//         <Section2 />
-//       </div>
-//     </div>
-//   );
-// }
-// export default App;
+import About from './About';
+import Services from './Services';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
 function App() {
   return (
     <div>
-      <Body/>
+      <Head/>
+      <Section1/>
+      <About/>
+      <Services/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

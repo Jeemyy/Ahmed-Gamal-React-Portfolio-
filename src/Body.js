@@ -113,7 +113,6 @@ export default function Body() {
       setScrolled(window.scrollY > 50);
     };
 
-    
     window.addEventListener("scroll", handleScroll);
 
     // Cleanup عند unmount
@@ -121,7 +120,7 @@ export default function Body() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  
+
   const [active, setActive] = useState("home");
 
   // Refs لكل قسم
@@ -198,13 +197,14 @@ export default function Body() {
         </a>
       </nav>
 
-      {/* Refs placeholders */}
-      <div ref={sec1Ref}></div>
-      <div ref={sec2Ref}></div>
-      <div ref={sec3Ref}></div>
-      <div ref={sec4Ref}></div>
-      <div ref={sec5Ref}></div>
-    </header>      {/* Section 1 */}
+        {/* Refs placeholders */}
+        <div ref={sec1Ref}></div>
+        <div ref={sec2Ref}></div>
+        <div ref={sec3Ref}></div>
+        <div ref={sec4Ref}></div>
+        <div ref={sec5Ref}></div>
+      </header>
+      {/* Section 1 */}
       <section className="sec1" id="sec1">
         <div className="container">
           <div className="body">
@@ -265,7 +265,7 @@ export default function Body() {
             <div className="line2"></div>
           </div>
         </div>
-      </section>{" "}
+      </section>
       {/* About */}
       <section className="sec2" id="sec2">
         <div className="about" id="about">

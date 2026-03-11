@@ -1,5 +1,6 @@
 import './App.css';
 import './style.css';
+import './media.css';
 import Head from './Head';
 import Section1 from './Section1';
 import About from './About';

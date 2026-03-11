@@ -2,14 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 
 export default function Head() {
-
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("home");
 
   useEffect(() => {
-
     const handleScroll = () => {
-
       setScrolled(window.scrollY > 50);
 
       const scrollPos = window.scrollY;
@@ -19,19 +16,15 @@ export default function Head() {
       else if (scrollPos < 1770) setActive("services");
       else if (scrollPos < 2500) setActive("projects");
       else setActive("contact");
-
     };
 
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-
   }, []);
 
   return (
-
     <header className={`head ${scrolled ? "scrolled" : ""}`} id="head">
-
       <div className="title">
         <span id="l">{"{"}</span>
         <span id="d">.</span>
@@ -40,7 +33,6 @@ export default function Head() {
       </div>
 
       <nav className="nav1">
-
         <a
           href="#sec1"
           onClick={() => setActive("home")}
@@ -80,10 +72,7 @@ export default function Head() {
         >
           Contact Us
         </a>
-
       </nav>
-
     </header>
-
   );
 }

@@ -68,10 +68,14 @@
   font-size: 35px;
 }
 
+.head .nav1{
+  margin-left: 100px;
+  /* margin: auto; */
+}
 .head .nav1 a{
   margin-left: 50px;
   color: #ffffff;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .head .nav1 #a1{
@@ -157,11 +161,15 @@
   background: #fff;
 }
 
-.toggle_btn{
+.toggle_btn {
   font-size: 25px;
   color: #fff;
   cursor: pointer;
   display: none;
+  position: absolute;
+  right: 2rem; /* زر في الجهة اليمنى */
+  top: 15px;
+  z-index: 1000;
 }
 
 .dropdown_menu{

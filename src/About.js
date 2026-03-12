@@ -46,7 +46,7 @@ function About() {
             <button
               onClick={() =>
                 (window.location.href =
-                  "https://drive.google.com/file/d/1wvnhWxF5SKEoddYspg0AQsTdQOXXUgsL/view")
+                  "https://drive.google.com/file/d/1feVh3DzBCIlGKRekq4xulXguwlHMrWB0/view?usp=sharing")
               }
             >
               <span className="transition"></span>

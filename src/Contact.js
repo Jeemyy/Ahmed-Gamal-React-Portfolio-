@@ -49,7 +49,7 @@ function Contact() {
               <input type="text" name="username" placeholder="Username" />
               <input type="email" name="email" placeholder="E-mail" />
               <textarea name="message" placeholder="Your Message..."></textarea>
-              <input type="submit" value="Send" />
+              <input type="submit" value="Send" onLoad={1}/>
             </div>
           </form>
         </div>

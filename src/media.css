@@ -409,6 +409,13 @@
     .sec2 .about{
         margin: 0;
     }
+         .sec3{
+        min-height: 120vh;
+     }
+
+    /* .sec4 .container .title{
+        margin-bottom: 2rem;
+    } */
     .sec4 .project-card {
         width: 11rem;
         height: 15rem !important; 

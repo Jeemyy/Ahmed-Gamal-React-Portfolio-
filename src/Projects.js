@@ -67,7 +67,7 @@ function Projects() {
       <div className="container">
         <div className="title">
           <p>
-            <span>My</span> Projects
+            <span> { '<' } </span> Projects <span> { '/>' } </span>
           </p>
         </div>
 

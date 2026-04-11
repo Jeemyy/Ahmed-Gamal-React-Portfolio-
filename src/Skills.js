@@ -19,7 +19,7 @@ const skillsData = [
         skills: [
             { name: "HTML", percent: 90 },
             { name: "CSS", percent: 90 },
-            { name: "JavaScript", percent: 75 },
+            { name: "JavaScript", percent: 85 },
             { name: "Bootstrap", percent: 70 },
             { name: "Tailwind", percent: 70 },
             { name: "React JS", percent: 80 },

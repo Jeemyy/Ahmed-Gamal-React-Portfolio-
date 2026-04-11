@@ -8,12 +8,14 @@ import Services from './Services';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
+import Skills from './Skills';
 function App() {
   return (
     <div>
       <Head/>
       <Section1/>
       <About/>
+      <Skills/>
       <Services/>
       <Projects/>
       <Contact/>

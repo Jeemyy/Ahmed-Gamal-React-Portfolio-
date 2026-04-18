@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 import GithubIcon from "./icons/GithubIcon";
 import profileImg from "@/assets/profile.jpg";
 
-const techs = ["PHP", "Laravel", "C#", ".NET", "MySQL"];
+const techs = ["PHP", "Laravel", "MySQL"];
 
 const HeroSection = () => (
   <section
